@@ -5,14 +5,14 @@ packaging_format = 2
 id = "yeetfile"
 name = "YeetFile"
 description.en = "Encrypted file sharing and vault service"
-description.fr = "partage de fichiers cryptés et service de coffre-fort"
+description.fr = "Partage de fichiers cryptés et service de coffre-fort"
 
 version = "0.2.0~ynh1"
 
 maintainers = ["eric_G"]
 
 [upstream]
-license = " AGPL-3.0"
+license = "AGPL-3.0"
 website = "https://yeetfile.com/"
 demo = "https://yeetfile.com/"
 admindoc = "https://docs.yeetfile.com/"
@@ -40,11 +40,11 @@ ram.runtime = "50M"
     type = "group"
     default = "visitors"
 
-    [install.admin]
-    type = "user"
+    #[install.admin]
+    #type = "user"
 
-    [install.password]
-    type = "password"
+    #[install.password]
+    #type = "password"
 
 [resources]
 
@@ -55,6 +55,8 @@ ram.runtime = "50M"
     amd64.sha256 = "9fc2c5b36c5d01e819f15e55e79614b461e6774c013004a567a3f1c8b8ff6020"
     arm64.url = "https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile-server_linux_arm64_0.2.0.tar.gz"
     arm64.sha256 = "234a61f2d0d9791afd1de98c36adabe3e41f68802582233fd2f20358ba53fd62"
+    armhf.url = "https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile_linux_arm32_0.2.0.tar.gz"
+    armhf.sha256 = "017c57785a4e4870a68055f2b22c47f2aec128fdfb6d7076fc3ae88c943953b4"
     in_subdir = false
 
     # autoupdate.strategy = "latest_github_tag"
