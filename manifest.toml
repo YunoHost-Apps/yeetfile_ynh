@@ -47,8 +47,8 @@ ram.runtime = "50M"
     [resources.sources.main]
     amd64.url = "https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile-server_linux_amd64_0.2.0.tar.gz"
     amd64.sha256 = "9fc2c5b36c5d01e819f15e55e79614b461e6774c013004a567a3f1c8b8ff6020"
-    arm64.url = "https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile-server_linux_amd64_0.2.0.tar.gz"
-    arm64.sha256 = "9fc2c5b36c5d01e819f15e55e79614b461e6774c013004a567a3f1c8b8ff6020"
+    arm64.url = "https://github.com/benbusby/yeetfile/releases/download/v0.2.0/yeetfile-server_linux_arm64_0.2.0.tar.gz"
+    arm64.sha256 = "234a61f2d0d9791afd1de98c36adabe3e41f68802582233fd2f20358ba53fd62"
     in_subdir = false
 
     # autoupdate.strategy = "latest_github_tag"
