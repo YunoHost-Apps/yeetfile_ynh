@@ -5,7 +5,7 @@ packaging_format = 2
 id = "yeetfile"
 name = "YeetFile"
 description.en = "Encrypted file sharing and vault service"
-description.fr = "partage de fichiers cryptés et service de coffre-fort"
+description.fr = "Partage de fichiers cryptés et service de coffre-fort"
 
 version = "0.2.0~ynh1"
 
